@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Registo Produtos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BusinessUP</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<form action="adicionar_registo.php" method="post">
@@ -28,7 +30,7 @@
             </tr>
             
             <tr>
-                <td><button type="submit">Adiciona registo</button></td>
+                <td><button type="submit">Adiciona Produto</button></td>
             </tr>
         </table>
 	</form>
