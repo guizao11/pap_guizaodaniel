@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 24-Fev-2025 às 10:53
--- Versão do servidor: 10.4.32-MariaDB
--- versão do PHP: 8.2.12
+-- Tempo de geração: 07-Mar-2025 às 17:17
+-- Versão do servidor: 10.4.28-MariaDB
+-- versão do PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `gestao_negocios`
+-- Banco de dados: `pap`
 --
 
 -- --------------------------------------------------------
@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `produtos` (
   `id` int(11) NOT NULL,
   `nome` varchar(255) NOT NULL,
-  `descricao` text NOT NULL,
+  `descricao` text DEFAULT NULL,
   `preco` decimal(10,2) NOT NULL,
   `quantidade` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
