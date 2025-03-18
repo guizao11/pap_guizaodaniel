@@ -14,8 +14,8 @@
             <a href="index.php"> Dashboard </a>
             <a href = "produtos.php"> Produtos </a>
             <a href = "vendas.php"> Vendas </a>
-</nav>
-</header>
+        </nav>
+    </header>
 
 <section id="produtos">
     <h2> Adicionar Produto </h2>

@@ -10,10 +10,11 @@ if ($results -> num_rows > 0)  {
     <tr> 
     <th> ID </th>
     <th> Nome do Produto </th>
-    <th> DEscrição </th>
+    <th> Descrição </th>
     <th> Preço </th>
     <th> Stock </th>
     </tr>";
+    
     while ($row = $results -> fetch_assoc()) {
         echo "<tr>
         <td>" . $row['id']. "</td>
